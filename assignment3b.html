@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <style>
+            section {
+                padding-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Interest Survey Form</h1>
+            <form>
+                <section>
+                <label for="name">Enter your name:
+                </label>
+                <input type="text" id="name" name="name">
+            </section>
+            <section>
+                <label for="department">Enter your department:</label>
+                <input type="text" id="department" name="department">
+            </section>
+            <section>
+                <label for="about">Tell us a little about yourself:</label>
+                <textarea name="about" id="about" cols="25" rows="3"></textarea>
+            </section>
+            <section>
+                <span>Do you exercise at home?</span>
+                <input type="radio" id="yes" name="exercise">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="exercise">
+                <label for="no">No</label>
+            </section>
+            <section>
+                <span>How do you like to read about your favorite topics?</span><br>
+                <input type="checkbox" value="books" name="books">
+                <label for="books">Books</label>
+                <input type="checkbox" value="online" name="online">
+                <label for="online">Online resources</label>
+                <input type="checkbox" value="phone" name="phone">
+                <label for="phone">Phone apps</label>
+                <input type="checkbox" value="mags" name="mags">
+                <label for="mags">Magazines</label>
+            </section>
+            <section>
+                <label for="genre">What genre of movies do you like?</label>
+                <select name="genre" id="genre">
+                    <option value="comedy">comedy</option>
+                    <option value="action">action</option>
+                    <option value="african">african</option>
+                </select>
+            </section>
+            <section>
+                <input type="submit" value="Submit form">
+            </section>
+            </form>
+        </main>
+    </body>
+</html>
